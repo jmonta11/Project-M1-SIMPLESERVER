@@ -1,0 +1,27 @@
+{
+    {
+        "id": 0,
+        "courseName": "IFT 458",
+        "image": "",
+        "from": "Information Technology",
+        "instructor": "Professor Dinesh",
+        "credits": "3",
+        "description": "Middleware Database"
+    }
+    { "id": 1,
+        "courseName": "IFT 458",
+        "image": "",
+        "from": "Information Technology",
+        "instructor": "Professor Dinesh",
+        "credits": "3",
+        "description": "Middleware Database"
+    },
+    { "id": 2,
+        "courseName": "IFT 458",
+        "image": "",
+        "from": "Information Technology",
+        "instructor": "Professor Dinesh",
+        "credits": "3",
+        "description": "Middleware Database"
+    },
+}
