@@ -108,6 +108,23 @@
         font-size: 2rem;
         margin-left: 1rem;
       }
+      .calculator {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            right: 10px;
+            left: 100px;
+            padding: 20px 0px 0px 100px;
+            border-radius: 50px;
+            color: rgb(0, 0, 0);
+        }
+      
+      input {
+            padding: 7px;
+            width: 70%;
+            margin-top: 7px;
+      }
     </style>
   </head>
 
@@ -124,7 +141,7 @@
           <p><span class="emoji-left">🗞</span>Major in: {%FROM%}</p>
         </div>
         <div class="course__info">
-             <span><class="emoji-left">🎓</span>Instructors: {%INSTRUCTOR%}
+            <span><class="emoji-left">🎓</span>Instructors: {%INSTRUCTOR%}
         </div>
 
         <a href="#" class="course__info">
@@ -133,8 +150,37 @@
   
         <p class="course__info">
           🏬 Department: {%DESCRIPTION%}
-        </p>
+        </p>  
+        <!------------CALCULATOR FORM------------------>
+        <div class="calculator">
+         
+        <p>
+        Amount $:
+        <input id="amount" type="number"
+        onchange="Calculate()">
+      </p>
+
+      <p>
+        Interest Rate:
+        <input id="rate" type="number"
+        onchange="Calculate()">
+      </p>
+
+      <p>
+        Months to Pay:
+        <input id="months" type="number"
+        onchange="Calculate()">
+      </p>  
+      <h2 id="total"></h2>
+      </div>
+      <br>
+      <br>
+      <script src="index.js"></script>
+   
       </figure>
-    </div>
+   
+
+    </div>      
+  
   </body>
 </html>
